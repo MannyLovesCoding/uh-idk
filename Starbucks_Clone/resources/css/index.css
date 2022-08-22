@@ -1,1 +1,551 @@
-f
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* header css start*/
+.main-header {
+    border-bottom: 2px solid gainsboro;
+    padding: 20px;
+}
+
+.main-header-element {
+    display: inline-block;
+}
+
+.main-header-element .link-button {
+    display: inline-block;
+}
+
+.starbucks-logo {
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.header-link {
+    position: relative;
+    bottom: 12px;
+    left: 20px;
+}
+
+.header-link a {
+    letter-spacing: 2px;
+    font-size: 12.5px;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.header-link a:hover {  
+    color: #006241;
+}
+
+.find-location {
+    display: inline-block;  
+    filter: grayscale(1);
+    position: relative;
+    bottom: 10px;
+}
+
+.find-location a {
+    text-decoration: none;
+    color: #006241;
+}
+
+.find-location a:hover {
+    color: #006241;
+}
+
+.find-location img {
+    height: 20px;
+    position: relative;
+    right: 25px;
+    top: 22px;
+}
+
+.find-location p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.find-location img:hover{
+    filter: grayscale(0);
+}
+
+.find-location:hover {
+    filter: grayscale(0);
+    color: #006241;
+}
+
+.link-button {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-size:  12px;
+    font-weight: bold;
+}
+
+#join-now-button {
+    background-color: black;
+    color: white;
+}
+
+.other-buttons {
+    display: inline-block;
+    position: relative;
+    left: 50%;    
+}
+
+.join-buttons a {
+    text-decoration: none;
+    color: black;
+}
+.join-buttons {
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.join-buttons p {
+    margin-left: 10px;
+}
+
+.join-buttons a:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+}
+
+.join-buttons a[id="join-now-button"]:hover {
+    background-color: rgb(90, 90, 90)!important;
+}
+ 
+/* header css end */
+
+/* main start */
+
+/* rewards */
+.rewards {
+    background-color: #d4e9e2;
+    margin: 35px;
+}
+
+.rewards h1, .rewards p, #rewards-link {
+    text-align: right;
+}
+
+.rewards h1 {
+    color: #1e3932;
+    position: relative;
+    right: 115px;
+    top: 50px;
+}
+
+.rewards img {
+    height: 250px;
+    width: 700px;
+}
+
+#rewards-img {
+    position: relative;
+    bottom: 50px;
+    width: 250px;
+}
+
+#rewards-td-text {
+    position: relative;
+    top: 25px;
+    right: 250px;
+}
+
+.rewards p {
+    color: #1e3932;
+    font-size: 18px;
+    position: relative;
+    top: 115px;
+    left: 815px;
+    max-width: 460px;
+
+}
+
+#rewards-description-text1 {
+    position: relative;
+    top: 10px;
+    right: 20px;
+} 
+
+#rewards-description-text2 {
+    top: 15px;
+    position: relative;
+    right: 138px;
+}
+
+#rewards-link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 190px;
+    right: 320px;
+}
+
+
+#rewards-link a:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+}
+
+/*rewards end*/
+
+/* brightest drinks start */
+.brightest-drinks  {
+    background-color: #fa91aa;
+    margin: 35px;
+    height: 600px;
+}
+
+.brightest-drinks h1 {
+    font-size: 50px;
+    color: #1e3932;
+    font-weight: 590;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 500px;
+}
+
+#brightest-drinks-h1-span {
+    position: relative;
+    left: 100px;
+}
+.brightest-drinks p {
+    color: #1e3932;
+    position: relative;
+    width: 470px;
+    top: 120px;
+    left: 155px;
+    font-size: 25px;
+}
+
+#brightest-drinks-p-span {
+    position: relative;
+    left: 100px;
+}
+#brightest-drinks-img {
+    text-align: right;
+    height: 500px;
+}
+
+#brightest-drinks-img img {
+    position: relative;
+    height: 600px;
+    width: 750px;
+    bottom: 251px;
+}
+
+.brightest-drinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    position: relative;
+    top: 170px;
+    left: 300px;
+}
+
+.brightest-drinks a:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+}
+
+.registered-symbol {
+    font-size: small;
+    vertical-align: top;
+}
+/* brightest drinks end */
+
+/*Creamy, dreamy cold brew start*/
+.cold-brew {
+    color: white;
+    background-color: #f06464;
+    text-align: right;
+    margin: 35px;
+    height: 600px;
+}
+
+.cold-brew h1 {
+    font-size: 50px;
+    position: relative;
+    top: 150px;
+    right: 200px;
+    letter-spacing: 2px;
+}
+
+.cold-brew p {
+    font-size: 25px;
+    width: 500px;
+    position: relative;
+    top: 170px;
+    left: 760px;
+}
+
+#cold-brew-h1-text {
+    display: block;
+    position: relative;
+    width: 400px;
+    left: 960px;
+}
+
+#cold-brew-p-span {
+    position: relative;
+    right: 75px;
+}
+
+.cold-brew a {
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    font-size: 17px;
+    position: relative;
+    top: 225px;
+    right: 350px;
+}
+
+.cold-brew img {
+    width: 700px;
+    height: 600px;
+}
+#cold-brew-img {
+    text-align: left;
+    position: relative;
+    bottom: 221px;
+    width: 700px;
+    height: 600px;
+}
+
+
+
+.cold-brew a:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+}
+/*Creamy, dreamy cold brew end*/
+
+/*Back-to-school smiles*/
+.back-to-school {
+    background-color: #faaa5a;
+    margin: 35px;
+    height: 650px;
+    max-height: 1050.800px;
+}
+
+.back-to-school h1{
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: #1e3932;
+    position: relative;
+    top: 200px;
+    left: 170px;
+}
+
+#back-to-school-h1-span {
+    display: block;
+    position: relative;
+    left: 80px;
+}
+
+.back-to-school p {
+    width: 500px;
+    font-size: 25px;
+    color: #1e3932;
+    position: relative;
+    top: 220px;
+    left: 110px;
+}
+
+.back-to-school a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    position: relative;
+    top: 250px;
+    left: 260px;
+
+}
+
+.back-to-school a:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+}
+.back-to-school img {
+    height: 650px;
+    width: 750px;
+    position: relative;
+    bottom: 193px;
+}
+#back-to-school-img {
+    height: 100px;
+    text-align: right;
+}
+
+/*Back-to-school smiles end*/
+
+/*footer start*/
+
+footer {
+  margin-left: 20px;    
+}
+footer p {
+    text-align: center;
+    border-bottom: 2px solid rgb(226, 219, 219);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+footer p a  {
+    color: black;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
+
+.footer-header {
+    font-size: 20px;
+    color: rgba(0,0,0,.87);
+    font-weight: normal;
+}
+
+.footer-header-links {
+    margin: 20px;
+    list-style: none;
+}
+
+.footer-header-links a {
+    color: rgba(0,0,0,.58);
+    text-decoration: none;
+}
+
+.footer-header-links a:hover {
+    color: rgba(0,0,0,.87);
+}
+
+.footer-link-section {
+    display: inline-block;
+}
+
+.about-starbucks {
+    position: relative;
+    top: 20px;
+}
+
+.about-starbucks h2 {
+    position: relative;
+    left: 20px;
+}
+
+.careers {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.careers h2 {
+    position: relative;
+    left: 20px;
+}
+
+.social-impact {
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+}
+
+.social-impact h2 {
+    position: relative;
+    left: 20px;
+}
+.business-partners {
+    position: relative;
+    bottom: 95px;
+}
+
+.business-partners h2 {
+    position: relative;
+    left: 10px;
+}
+
+.order-and-pickup {
+    position: relative;
+    left: 50px;
+    bottom: 18px;
+}
+
+.order-and-pickup h2 {
+    position: inherit;
+    left: 18px;
+}
+
+/*social links*/
+
+.social-links {
+    border-top: 2px solid rgb(226, 219, 219);
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.social-links a img{
+    height: 45px;
+    margin: 5px;
+    background-color: transparent;
+    padding: 7px;
+}
+
+.social-links a img:hover {
+    background-color: rgba(225, 220, 220, 0.453);
+    border-radius: 50%;
+}
+/*privacy statement*/
+.other-footer-elements {
+    margin-top: 20px;
+}
+.other-footer-elements a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    position: relative;
+    left: 15px;
+}
+
+.other-footer-elements a:hover {
+    text-decoration: underline;
+}
+
+.footer-privacy-statement-separator {
+    font-size: 20px;
+    margin-left: 20px;
+    color: rgba(0,0,0,.58);
+}
+
+#french-site-option {
+    margin-top: 35px;
+    display: block;
+    font-weight: bold;
+    color: #00754a;
+}
+
+#french-site-option:hover {
+    text-decoration: none;
+}
+
+#rights-reserved-text {
+    text-align: start;
+    margin-left: 14px;
+    font-size: 14px;
+    position: relative;
+    bottom: 25px;
+    border: none;
+}
+/*footer end*/
+/* main end*/
+
